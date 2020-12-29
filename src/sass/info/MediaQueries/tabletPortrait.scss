@@ -1,0 +1,19 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .head-rating {
+      display: flex;
+       svg {
+      margin-bottom: 0;
+    }
+      .rating-text {
+        margin-left: 6px;
+        margin-right: 10px;
+      }
+    }
+    
+  }
+}
