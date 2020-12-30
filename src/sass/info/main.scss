@@ -527,8 +527,8 @@ border-top: 1px dashed #FFFFFF;
 
     &.active {
       display: block;
-      -webkit-animation-name: fade-in;
-      animation-name: fade-in;
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
       -webkit-animation-duration: 1s;
       animation-duration: 1s;
       -webkit-animation-duration: var(--animate-duration);
