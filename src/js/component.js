@@ -41,6 +41,35 @@ $(document).ready(function () {
   });
 
 
+  $(".buyers-slider").slick({
+    infinite: true,
+    arrows: false,
+    dots: false,
+    autoplay: false,
+    speed: 800,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+         slidesToShow: 2,
+    slidesToScroll: 1,
+        dots: true,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+         slidesToShow: 1,
+        slidesToScroll: 1,
+       dots: true,
+      }
+    }
+  ]
+  });
+
+
   /*==================================*/
 
   var anim1Frame1, anim1Frame2, anim1Frame3, anim1Frame4, anim1Frame5, anim1Frame6, anim1Frame7, anim1Frame8, anim1Frame9, anim1Frame10, anim1Frame11, anim1Frame12, anim1Frame13, anim1Frame14;
@@ -64,68 +93,68 @@ $(document).ready(function () {
 
     anim1Frame4 = window.setTimeout(function () {
       $('.mess-one li:nth-child(2)').addClass('fadeInBottomRight animate');
-    }, 3800)
+    }, 4300)
 
     anim1Frame5 = window.setTimeout(function () {
       $('.mess-one li:nth-child(3)').addClass('fadeInBottomLeft animate');
     }, 4500)
 
     anim1Frame6 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(4)').addClass('fadeInBottomLeft animate');
       $('.mess-one').css({
         'top': '-' + $('.mess-one li:nth-child(4)').height() + 'px'
       })
-    }, 7000)
+      $('.mess-one li:nth-child(4)').addClass('fadeInBottomLeft animate');
+    }, 5000)
 
     anim1Frame7 = window.setTimeout(function () {
       $('.mess-one li:nth-child(5)').addClass('fadeInBottomRight animate');
 
-    }, 7200)
+    }, 7500)
 
     anim1Frame8 = window.setTimeout(function () {
       $('.mess-one li:nth-child(6)').addClass('fadeInBottomLeft animate');
 
-    }, 7500)
+    }, 7700)
 
     anim1Frame9 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(7)').addClass('fadeInBottomLeft animate');
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(7)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-    }, 9000)
+      $('.mess-one li:nth-child(7)').addClass('fadeInBottomLeft animate');
+    }, 8000)
 
     anim1Frame10 = window.setTimeout(function () {
       $('.mess-one li:nth-child(8)').addClass('fadeInBottomRight animate');
 
-    }, 9200);
+    }, 9500);
 
     anim1Frame11 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(9)').addClass('fadeInBottomLeft animate');
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(9)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-    }, 12200)
+      $('.mess-one li:nth-child(9)').addClass('fadeInBottomLeft animate');
+    }, 9700)
 
     anim1Frame12 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(10)').addClass('fadeInBottomLeft animate');
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(10)').height() + 15) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-    }, 12400)
+      $('.mess-one li:nth-child(10)').addClass('fadeInBottomLeft animate');
+    }, 11700)
 
     anim1Frame13 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(11)').addClass('fadeInBottomLeft animate');
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(11)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-    }, 14400)
+      $('.mess-one li:nth-child(11)').addClass('fadeInBottomLeft animate');
+    }, 11900)
 
     anim1Frame14 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(12)').addClass('fadeInBottomLeft animate');
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(12)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-    }, 16400)
+      $('.mess-one li:nth-child(12)').addClass('fadeInBottomLeft animate');
+    }, 13900)
 
   }
 
@@ -149,16 +178,16 @@ $(document).ready(function () {
 
     anim2Frame4 = window.setTimeout(function () {
       $('.mess-two li:nth-child(2)').addClass('fadeInBottomRight animate');
-    }, 3500)
+    }, 5800)
 
     anim2Frame5 = window.setTimeout(function () {
       $('.mess-two li:nth-child(3)').addClass('fadeInBottomLeft animate');
-    }, 6500)
+    }, 6000)
 
     anim2Frame6 = window.setTimeout(function () {
       $('.mess-two li:nth-child(4)').addClass('fadeInBottomRight animate');
 
-    }, 6700)
+    }, 9000)
 
     anim2Frame7 = window.setTimeout(function () {
       $('.mess-two li:nth-child(5)').addClass('fadeInBottomRight animate');
@@ -166,7 +195,7 @@ $(document).ready(function () {
         'top': '-' + $('.mess-two li:nth-child(5)').height() + 'px'
       })
 
-    }, 7700)
+    }, 9200)
 
     anim2Frame8 = window.setTimeout(function () {
       $('.mess-two li:nth-child(6)').addClass('fadeInBottomLeft animate');
@@ -180,14 +209,14 @@ $(document).ready(function () {
       $('.mess-two').css({
         'top': '-' + (Number($('.mess-two li:nth-child(7)').height()) - parseInt($('.mess-two').css('top'))) + 'px'
       })
-    }, 10400)
+    }, 12700)
 
     anim2Frame10 = window.setTimeout(function () {
       $('.mess-two li:nth-child(8)').addClass('fadeInBottomRight animate');
       $('.mess-two').css({
         'top': '-' + (Number($('.mess-two li:nth-child(8)').height()) - parseInt($('.mess-two').css('top'))) + 'px'
       })
-    }, 13400);
+    }, 12900);
   }
 
 
@@ -233,100 +262,100 @@ $(document).ready(function () {
 
     anim3Frame5 = window.setTimeout(function () {
       $('.mess-three li:nth-child(3)').addClass('fadeInBottomLeft animate');
-    }, 7800)
+    }, 6300)
 
     anim3Frame6 = window.setTimeout(function () {
       $('.mess-three li:nth-child(4)').addClass('fadeInBottomRight animate');
 
-    }, 8000)
+    }, 9300)
 
     anim3Frame7 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(5)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + $('.mess-three li:nth-child(5)').height() + 'px'
       })
+      $('.mess-three li:nth-child(5)').addClass('fadeInBottomLeft animate');
 
-    }, 10000)
+    }, 9500)
 
     anim3Frame8 = window.setTimeout(function () {
       $('.mess-three li:nth-child(6)').addClass('fadeInBottomRight animate');
-    }, 10200)
+    }, 11500)
 
     anim3Frame9 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(7)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(7)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 12200)
+      $('.mess-three li:nth-child(7)').addClass('fadeInBottomLeft animate');
+    }, 11700)
 
     anim3Frame10 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(8)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(8)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 14200);
+      $('.mess-three li:nth-child(8)').addClass('fadeInBottomLeft animate');
+    }, 13700);
 
     anim3Frame11 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(9)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(9)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 16200);
+      $('.mess-three li:nth-child(9)').addClass('fadeInBottomLeft animate');
+    }, 15700);
 
     anim3Frame12 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(10)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(10)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 18200);
+      $('.mess-three li:nth-child(10)').addClass('fadeInBottomLeft animate');
+    }, 17700);
 
     anim3Frame13 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(11)').addClass('fadeInBottomRight animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(11)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 18400);
+      $('.mess-three li:nth-child(11)').addClass('fadeInBottomRight animate');
+    }, 19700);
 
     anim3Frame14 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(12)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(12)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 18700);
+      $('.mess-three li:nth-child(12)').addClass('fadeInBottomLeft animate');
+    }, 19900);
 
     anim3Frame15 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(13)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(13)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 19700);
+      $('.mess-three li:nth-child(13)').addClass('fadeInBottomLeft animate');
+    }, 20400);
 
     anim3Frame16 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(14)').addClass('fadeInBottomRight animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(14)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 19900);
+      $('.mess-three li:nth-child(14)').addClass('fadeInBottomRight animate');
+    }, 22400);
 
     anim3Frame17 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(15)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(15)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 20100);
+      $('.mess-three li:nth-child(15)').addClass('fadeInBottomLeft animate');
+    }, 22600);
 
     anim3Frame18 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(16)').addClass('fadeInBottomRight animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(16)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 20300);
+      $('.mess-three li:nth-child(16)').addClass('fadeInBottomRight animate');
+    }, 25100);
     anim3Frame19 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(17)').addClass('fadeInBottomLeft animate');
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(17)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-    }, 23100);
+      $('.mess-three li:nth-child(17)').addClass('fadeInBottomLeft animate');
+    }, 25300);
 
   }
 
@@ -521,5 +550,13 @@ $(document).ready(function () {
     }
   })
 
+  
+  
+  /*=============================*/
+  
+  $('.faq-item ').click(function(){
+    $(this).toggleClass('active');
+    $(this).find('.more').slideToggle(200);
+  })
 
 });
