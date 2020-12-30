@@ -483,8 +483,9 @@
     }
   }
 
-  .pb130 {
+  .section.pb130 {
     padding-bottom: 0;
+    padding-top: 0;
   }
 
   .automations {
@@ -590,7 +591,7 @@
   }
 
   .video .h2-subtitle {
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
     text-align: center;
   }
 
@@ -614,24 +615,31 @@
     width: calc(100% - 35px);
     height: 100%;
     background-size: 100%;
-    
+
     top: 49%;
 
   }
+
   .fancybox-slide {
     padding-left: 0;
     padding-right: 0;
   }
+
   .video {
     min-height: inherit;
   }
+
   .campaigns {
-    padding: 58px 0 75px;
+    position: relative;
+    z-index: 2;
+    padding: 100px 0 75px;
   }
-  .campaigns-item .title, .campaigns-item p {
+
+  .campaigns-item .title,
+  .campaigns-item p {
     display: flex;
     text-align: center;
-        display: -ms-flexbox;
+    display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
     align-items: center;
@@ -639,59 +647,76 @@
     justify-content: center;
 
   }
+
   .campaigns-item {
     max-width: 290px;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
-}
+  }
+
   .campaigns-item .img {
     min-height: inherit;
     margin-bottom: 20px;
   }
+
   .campaigns-item .title {
     margin-bottom: 10px;
   }
+
   .campaigns {
     .h2-subtitle {
       margin-bottom: 50px;
     }
+
     .h2-title {
       margin-bottom: 20px;
     }
   }
+
   .is_more {
     padding: 75px 0 15px;
   }
+
   .is_more-item {
     min-height: inherit;
     margin-bottom: 60px;
-        max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 310px;
+
     br {
       display: none;
     }
+
     &:last-child {
       margin-bottom: 60px;
     }
   }
+
   .eliteseller_info {
     padding: 75px 0;
   }
+
   .eliteseller_info-row {
     flex-direction: column;
   }
+
   .eliteseller_info-item {
     width: 100%;
     max-width: 240px;
     margin-bottom: 40px;
+
     &:last-child {
       margin-bottom: 0;
     }
   }
+
   .faq {
     padding-top: 75px;
   }
+
   .questions-item {
     display: block;
     border-top: 1px solid #C2CEE6;
@@ -699,14 +724,35 @@
     background: 0 0;
     padding-left: 0;
     padding-right: 0;
+
     span {
       display: block;
     }
   }
+
   .single-item:before {
     display: none;
   }
+
   .container {
     max-width: 480px;
+  }
+
+  .video {
+    background: 0 0;
+    position: relative;
+
+    &:before {
+      content: "";
+      background: url(../images/vbg.svg) center no-repeat;
+      background-size: 110%;
+      height: 526.95px;
+      width: 887px;
+      position: absolute;
+      left: 50%;
+      top: 68%;
+      transform: translateX(-50%) translateY(-50%);
+
+    }
   }
 }

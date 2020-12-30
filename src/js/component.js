@@ -87,32 +87,32 @@ $(document).ready(function () {
 
 
     anim1Frame3 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(1)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(1)').addClass('fadeIn animate');
     }, 3300)
 
 
     anim1Frame4 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(2)').addClass('fadeInBottomRight animate');
+      $('.mess-one li:nth-child(2)').addClass('fadeIn animate');
     }, 4300)
 
     anim1Frame5 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(3)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(3)').addClass('fadeIn animate');
     }, 4500)
 
     anim1Frame6 = window.setTimeout(function () {
       $('.mess-one').css({
         'top': '-' + $('.mess-one li:nth-child(4)').height() + 'px'
       })
-      $('.mess-one li:nth-child(4)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(4)').addClass('fadeIn animate');
     }, 5000)
 
     anim1Frame7 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(5)').addClass('fadeInBottomRight animate');
+      $('.mess-one li:nth-child(5)').addClass('fadeIn animate');
 
     }, 7500)
 
     anim1Frame8 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(6)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(6)').addClass('fadeIn animate');
 
     }, 7700)
 
@@ -120,11 +120,11 @@ $(document).ready(function () {
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(7)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-      $('.mess-one li:nth-child(7)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(7)').addClass('fadeIn animate');
     }, 8000)
 
     anim1Frame10 = window.setTimeout(function () {
-      $('.mess-one li:nth-child(8)').addClass('fadeInBottomRight animate');
+      $('.mess-one li:nth-child(8)').addClass('fadeIn animate');
 
     }, 9500);
 
@@ -132,28 +132,28 @@ $(document).ready(function () {
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(9)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-      $('.mess-one li:nth-child(9)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(9)').addClass('fadeIn animate');
     }, 9700)
 
     anim1Frame12 = window.setTimeout(function () {
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(10)').height() + 15) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-      $('.mess-one li:nth-child(10)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(10)').addClass('fadeIn animate');
     }, 11700)
 
     anim1Frame13 = window.setTimeout(function () {
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(11)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-      $('.mess-one li:nth-child(11)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(11)').addClass('fadeIn animate');
     }, 11900)
 
     anim1Frame14 = window.setTimeout(function () {
       $('.mess-one').css({
         'top': '-' + (Number($('.mess-one li:nth-child(12)').height()) - parseInt($('.mess-one').css('top'))) + 'px'
       })
-      $('.mess-one li:nth-child(12)').addClass('fadeInBottomLeft animate');
+      $('.mess-one li:nth-child(12)').addClass('fadeIn animate');
     }, 13900)
 
   }
@@ -172,25 +172,25 @@ $(document).ready(function () {
 
 
     anim2Frame3 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(1)').addClass('fadeInBottomLeft animate');
+      $('.mess-two li:nth-child(1)').addClass('fadeIn animate');
     }, 3300)
 
 
     anim2Frame4 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(2)').addClass('fadeInBottomRight animate');
+      $('.mess-two li:nth-child(2)').addClass('fadeIn animate');
     }, 5800)
 
     anim2Frame5 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(3)').addClass('fadeInBottomLeft animate');
+      $('.mess-two li:nth-child(3)').addClass('fadeIn animate');
     }, 6000)
 
     anim2Frame6 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(4)').addClass('fadeInBottomRight animate');
+      $('.mess-two li:nth-child(4)').addClass('fadeIn animate');
 
     }, 9000)
 
     anim2Frame7 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(5)').addClass('fadeInBottomRight animate');
+      $('.mess-two li:nth-child(5)').addClass('fadeIn animate');
       $('.mess-two').css({
         'top': '-' + $('.mess-two li:nth-child(5)').height() + 'px'
       })
@@ -198,21 +198,21 @@ $(document).ready(function () {
     }, 9200)
 
     anim2Frame8 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(6)').addClass('fadeInBottomLeft animate');
+      $('.mess-two li:nth-child(6)').addClass('fadeIn animate');
       $('.mess-two').css({
         'top': '-' + (Number($('.mess-two li:nth-child(6)').height()) - parseInt($('.mess-two').css('top'))) + 'px'
       })
     }, 10200)
 
     anim2Frame9 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(7)').addClass('fadeInBottomRight animate');
+      $('.mess-two li:nth-child(7)').addClass('fadeIn animate');
       $('.mess-two').css({
         'top': '-' + (Number($('.mess-two li:nth-child(7)').height()) - parseInt($('.mess-two').css('top'))) + 'px'
       })
     }, 12700)
 
     anim2Frame10 = window.setTimeout(function () {
-      $('.mess-two li:nth-child(8)').addClass('fadeInBottomRight animate');
+      $('.mess-two li:nth-child(8)').addClass('fadeIn animate');
       $('.mess-two').css({
         'top': '-' + (Number($('.mess-two li:nth-child(8)').height()) - parseInt($('.mess-two').css('top'))) + 'px'
       })
@@ -253,19 +253,19 @@ $(document).ready(function () {
 
 
     anim3Frame3 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(1)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(1)').addClass('fadeIn animate');
     }, 3300)
 
     anim3Frame4 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(2)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(2)').addClass('fadeIn animate');
     }, 4800)
 
     anim3Frame5 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(3)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(3)').addClass('fadeIn animate');
     }, 6300)
 
     anim3Frame6 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(4)').addClass('fadeInBottomRight animate');
+      $('.mess-three li:nth-child(4)').addClass('fadeIn animate');
 
     }, 9300)
 
@@ -273,88 +273,88 @@ $(document).ready(function () {
       $('.mess-three').css({
         'top': '-' + $('.mess-three li:nth-child(5)').height() + 'px'
       })
-      $('.mess-three li:nth-child(5)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(5)').addClass('fadeIn animate');
 
     }, 9500)
 
     anim3Frame8 = window.setTimeout(function () {
-      $('.mess-three li:nth-child(6)').addClass('fadeInBottomRight animate');
+      $('.mess-three li:nth-child(6)').addClass('fadeIn animate');
     }, 11500)
 
     anim3Frame9 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(7)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(7)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(7)').addClass('fadeIn animate');
     }, 11700)
 
     anim3Frame10 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(8)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(8)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(8)').addClass('fadeIn animate');
     }, 13700);
 
     anim3Frame11 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(9)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(9)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(9)').addClass('fadeIn animate');
     }, 15700);
 
     anim3Frame12 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(10)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(10)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(10)').addClass('fadeIn animate');
     }, 17700);
 
     anim3Frame13 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(11)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(11)').addClass('fadeInBottomRight animate');
+      $('.mess-three li:nth-child(11)').addClass('fadeIn animate');
     }, 19700);
 
     anim3Frame14 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(12)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(12)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(12)').addClass('fadeIn animate');
     }, 19900);
 
     anim3Frame15 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(13)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(13)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(13)').addClass('fadeIn animate');
     }, 20400);
 
     anim3Frame16 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(14)').height()) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(14)').addClass('fadeInBottomRight animate');
+      $('.mess-three li:nth-child(14)').addClass('fadeIn animate');
     }, 22400);
 
     anim3Frame17 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(15)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(15)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(15)').addClass('fadeIn animate');
     }, 22600);
 
     anim3Frame18 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(16)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(16)').addClass('fadeInBottomRight animate');
+      $('.mess-three li:nth-child(16)').addClass('fadeIn animate');
     }, 25100);
     anim3Frame19 = window.setTimeout(function () {
       $('.mess-three').css({
         'top': '-' + (Number($('.mess-three li:nth-child(17)').height() + 10) - parseInt($('.mess-three').css('top'))) + 'px'
       })
-      $('.mess-three li:nth-child(17)').addClass('fadeInBottomLeft animate');
+      $('.mess-three li:nth-child(17)').addClass('fadeIn animate');
     }, 25300);
 
   }
@@ -382,7 +382,7 @@ $(document).ready(function () {
     $('.chat_mess').css({
       'top': '0px'
     })
-    $('.chat_mess li').removeClass('fadeInBottomLeft animate fadeInBottomRight');
+    $('.chat_mess li').removeClass('fadeIn animate fadeIn');
 
     $('.progressBarContainer div').removeClass('active');
     $('.progressBarContainer div span[data-slick-index="' + progressBarIndex + '"]').parent().addClass('active');
@@ -390,8 +390,8 @@ $(document).ready(function () {
 
 
     var obt1 = new Vivus('obturateur1', {
-      type: 'delayed',
-      duration: 180,
+      type: 'oneByOne',
+      duration: 380,
       onReady: function (myVivus) {
         window.clearTimeout(anim1Frame1);
         window.clearTimeout(anim1Frame2);
@@ -412,8 +412,8 @@ $(document).ready(function () {
     })
 
     var obt2 = new Vivus('obturateur2', {
-      type: 'delayed',
-      duration: 180,
+      type: 'oneByOne',
+      duration: 380,
       onReady: function (myVivus) {
         window.clearTimeout(anim2Frame1);
         window.clearTimeout(anim2Frame2);
@@ -429,8 +429,8 @@ $(document).ready(function () {
       }
     })
     var obt3 = new Vivus('obturateur3', {
-      type: 'delayed',
-      duration: 180,
+      type: 'oneByOne',
+      duration: 380,
       onReady: function (myVivus) {
         window.clearTimeout(anim3Frame1);
         window.clearTimeout(anim3Frame2);
@@ -527,8 +527,8 @@ $(document).ready(function () {
 
 
   var obt1 = new Vivus('obturateur1', {
-    type: 'delayed',
-    duration: 180,
+    type: 'oneByOne',
+    duration: 380,
     onReady: function (myVivus) {
       window.clearTimeout(anim1Frame1);
       window.clearTimeout(anim1Frame2);
@@ -555,6 +555,8 @@ $(document).ready(function () {
   /*=============================*/
   
   $('.faq-item ').click(function(){
+    $('.faq-item ').removeClass('active');
+    $('.faq-item .more').slideUp(200);
     $(this).toggleClass('active');
     $(this).find('.more').slideToggle(200);
   })

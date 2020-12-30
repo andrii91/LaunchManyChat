@@ -527,8 +527,8 @@ border-top: 1px dashed #FFFFFF;
 
     &.active {
       display: block;
-      -webkit-animation-name: fadeInLeft;
-      animation-name: fadeInLeft;
+      -webkit-animation-name: fade-in;
+      animation-name: fade-in;
       -webkit-animation-duration: 1s;
       animation-duration: 1s;
       -webkit-animation-duration: var(--animate-duration);
@@ -589,9 +589,9 @@ border-top: 1px dashed #FFFFFF;
 
   .loading {
     img {
-      -webkit-animation: spin 4s linear infinite;
-      -moz-animation: spin 4s linear infinite;
-      animation: spin 4s linear infinite;
+      -webkit-animation: spin 1s linear infinite;
+      -moz-animation: spin 1s linear infinite;
+      animation: spin 1s linear infinite;
     }
   }
 
@@ -1154,6 +1154,9 @@ margin-bottom: 40px;
 
 .campaigns {
   padding: 180px 0;
+  .h2-subtitle {
+        color: #505876;
+  }
 }
 
 .campaigns-item {
@@ -1245,6 +1248,7 @@ margin-bottom: 40px;
   border-top: 1px solid #E0E4EC;
   border-bottom: 1px solid #E0E4EC;
   padding: 20px;
+  padding-bottom: 50px;
       display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
