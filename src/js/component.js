@@ -21,6 +21,8 @@ $(document).ready(function () {
     arrows: false,
     dots: false,
     autoplay: false,
+    fade: true,
+//    cssEase: 'linear',
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
