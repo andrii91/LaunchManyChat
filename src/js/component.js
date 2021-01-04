@@ -25,17 +25,17 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        dots: true,
-      }
+      {
+        breakpoint: 768,
+        settings: {
+          dots: true,
+        }
     },
-    {
-      breakpoint: 480,
-      settings: {
-       dots: true,
-      }
+      {
+        breakpoint: 480,
+        settings: {
+          dots: true,
+        }
     }
   ]
   });
@@ -45,26 +45,26 @@ $(document).ready(function () {
     infinite: true,
     arrows: false,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     speed: 800,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-         slidesToShow: 2,
-    slidesToScroll: 1,
-        dots: true,
-      }
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: true,
+        }
     },
-    {
-      breakpoint: 480,
-      settings: {
-         slidesToShow: 1,
-        slidesToScroll: 1,
-       dots: true,
-      }
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+        }
     }
   ]
   });
@@ -391,7 +391,7 @@ $(document).ready(function () {
 
     var obt1 = new Vivus('obturateur1', {
       type: 'oneByOne',
-      duration: 380,
+      duration: 100,
       onReady: function (myVivus) {
         window.clearTimeout(anim1Frame1);
         window.clearTimeout(anim1Frame2);
@@ -413,7 +413,7 @@ $(document).ready(function () {
 
     var obt2 = new Vivus('obturateur2', {
       type: 'oneByOne',
-      duration: 380,
+      duration: 100,
       onReady: function (myVivus) {
         window.clearTimeout(anim2Frame1);
         window.clearTimeout(anim2Frame2);
@@ -430,7 +430,7 @@ $(document).ready(function () {
     })
     var obt3 = new Vivus('obturateur3', {
       type: 'oneByOne',
-      duration: 380,
+      duration: 100,
       onReady: function (myVivus) {
         window.clearTimeout(anim3Frame1);
         window.clearTimeout(anim3Frame2);
@@ -528,7 +528,7 @@ $(document).ready(function () {
 
   var obt1 = new Vivus('obturateur1', {
     type: 'oneByOne',
-    duration: 380,
+    duration: 100,
     onReady: function (myVivus) {
       window.clearTimeout(anim1Frame1);
       window.clearTimeout(anim1Frame2);
@@ -550,15 +550,34 @@ $(document).ready(function () {
     }
   })
 
-  
-  
+
+
   /*=============================*/
-  
-  $('.faq-item ').click(function(){
+
+  $('.faq-item ').click(function () {
     $('.faq-item ').removeClass('active');
     $('.faq-item .more').slideUp(200);
     $(this).toggleClass('active');
     $(this).find('.more').slideToggle(200);
+  });
+
+
+  if ($(window).width() < 1024) {
+    $('#item_2 h3').text('Engagement')
+    $('#item_3 h3').text('Post purchase')
+  } else {
+    $('#item_2 h3').text('Automate engagement')
+    $('#item_3 h3').text('Post purchase flows')
+  }
+
+  $(window).resize(function () {
+    if ($(window).width() < 1024) {
+      $('#item_2 h3').text('Engagement')
+      $('#item_3 h3').text('Post purchase')
+    } else {
+      $('#item_2 h3').text('Automate engagement')
+      $('#item_3 h3').text('Post purchase flows')
+    }
   })
 
 });
