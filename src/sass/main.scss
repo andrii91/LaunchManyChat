@@ -2288,3 +2288,10 @@ body.compensate-for-scrollbar {
 
 @import 'info/bootstrap';
 @import 'info/main';
+
+@media (min-width: 1200px) and (max-width: 1360px){
+   .nav .container {
+    max-width: 1260px;
+    padding: 0 15px;
+  }
+}
