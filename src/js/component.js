@@ -582,4 +582,25 @@ $(document).ready(function () {
     }
   })
 
+  var scrollBefore = 0;
+  function imageLoop() {
+  $(window).width() < 1024 ? $(".image-scroll").each(function (e, a) {
+    scrollBlock($(a))
+  }) : $(".image-scroll").css("transform", "translateX(0)")
+}
+
+function scrollBlock(e) {
+  if (e.width() > $(window).width() && $(window).scrollTop() < e.offset().top + e.height()) {
+    var a = e.width() - $(window).width() + 20,
+      s = e.css("transform"),
+      i = Number(s.substr(7).slice(0, -1).split(",")[4]),
+      r = ($(window).scrollTop() + .3 * $(window).height() - e.offset().top) / (e.height() - 200) * 100;
+    scrollBefore <= $(window).scrollTop() ? $(window).scrollTop() + .3 * $(window).height() > e.offset().top && (!i || -a <= i) && (r / 100 * e.width() > a ? e.css("transform", "translateX(".concat(-a, "px)")) : e.css("transform", "translateX(".concat(-r, "%)"))) : i && i <= 0 && (r / 100 * e.width() > a ? e.css("transform", "translateX(".concat(-a, "px)")) : 0 <= r / 100 * e.width() ? e.css("transform", "translateX(".concat(-r, "%)")) : e.css("transform", "translateX(".concat(0, "px)"))), scrollBefore = $(window).scrollTop()
+  }
+}
+
+  $(window).scroll(function (e) {
+     imageLoop(), scrollBefore = $(window).scrollTop()
+  })
+  
 });
