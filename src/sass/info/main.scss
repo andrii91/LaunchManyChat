@@ -1365,7 +1365,7 @@ border-radius: 3px;
 }
 
 .questions {
-  padding: 0 0 85px;
+  padding: 0 0 100px;
   .order-btn {
     max-width: 280px;
   }
@@ -1390,7 +1390,7 @@ border-radius: 3px;
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-  margin-bottom: 62px;
+//  margin-bottom: 62px;
   /*a {
     color: #0097E2;
     text-decoration: underline;
@@ -1427,12 +1427,69 @@ border-radius: 3px;
   border: 2px solid #0097E2;
   text-decoration: none;
   width: 100%;
-max-width: 280px;
+max-width: 200px;
   margin-left: 30px;
   &:hover, &:focus {
     color: #fff;
     background: #0097E2;
 //    background: linear-gradient(0deg, #FF4F57, #FF4F57), linear-gradient(0deg, rgba(255, 75, 17, .3), rgba(255, 75, 17, .3)), linear-gradient(0deg, #FB4A94 0, #FF6565 100%);
+  }
+}
+
+
+.pricing {
+  background: url('../images/group1900.svg') no-repeat center;
+  background-size: cover;
+  padding: 140px 0 20px;
+  text-align: center;
+  .h2-title {
+    font-family: Helvetica Now Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 125.2%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+  }
+  .order-btn {
+    max-width: 270px;
+  }
+}
+
+
+
+.appeal-list {
+  list-style: none;
+  padding: 0;
+  margin: 126px auto 0;
+  max-width: 682px;
+  display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  li {
+        display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: Helvetica Now Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    svg {
+      margin-right: 10px;
+    }
+
   }
 }
 
