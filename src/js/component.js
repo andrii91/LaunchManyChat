@@ -23,6 +23,7 @@ $(document).ready(function () {
     autoplay: false,
     fade: true,
 //    cssEase: 'linear',
+    swipe: false,
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -30,13 +31,13 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          dots: true,
+          dots: false,
         }
     },
       {
         breakpoint: 480,
         settings: {
-          dots: true,
+          dots: false,
         }
     }
   ]
